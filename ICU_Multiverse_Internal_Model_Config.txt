@@ -1,0 +1,40 @@
+
+# ICU Multiverse - Internal AI Model Configuration Guide
+
+## **1. Overview**
+ICU Multiverse operates within an OpenAI-based platform where multiple AI models are **directly accessible**. 
+This document outlines how to configure and assign the best AI models to their respective roles **inside the platform's system**.
+
+## **2. Model Assignments & Usage**
+| **Function**           | **Recommended Model**             | **Purpose** |
+|------------------------|--------------------------------|-------------|
+| **Main AI Engine**      | Meta-Llama 3 Instruct 70B      | Core intelligence & universe management |
+| **Coding/Automation**   | Meta-Code Llama 2 Instruct 34B | Self-adaptive canvases & AI-driven development |
+| **Image & Text Fusion** | Mixtral-V01 8.7B               | Processing screenshots & AI input |
+| **AI Logic & Expansion** | Microsoft Wizard LM 2, 8×22B  | Advanced AI behaviors & role-based AI assistants |
+
+## **3. How to Configure AI Models in the OwnAI-Based Platform**
+### **Step 1: Access Model Selection Interface**
+- Navigate to **OwnAI platform settings**.
+- Locate the **"AI Model Selection"** or equivalent section.
+- Identify the models available **(Meta-Llama, Mixtral, Code Llama, etc.).**
+
+### **Step 2: Assign AI Models to ICU Multiverse Functions**
+- **Set Meta-Llama 3 Instruct 70B** as the **default AI engine**.
+- **Use Meta-Code Llama 2** for all **coding-related tasks**.
+- **Enable Mixtral-V01** for **image & text processing (Cloud Vision API integration optional).**
+- **Test Microsoft Wizard LM 2** for **interactive, logic-heavy AI functions**.
+
+### **Step 3: Fine-Tune AI Model Behavior**
+- Adjust **response settings & temperature** based on the AI's function.
+- Set **memory settings** (if available) to ensure consistency across multiverse interactions.
+- Run test prompts to verify **each model is executing its role correctly**.
+
+### **4. Testing & Optimization**
+✅ Verify that each model is **performing optimally within its assigned function**.  
+✅ Run parallel tests **to evaluate interactions between AI models**.  
+✅ Adjust configurations based on **user feedback & AI performance insights**.  
+
+---
+## **5. Future Adjustments & Expansions**
+As ICU Multiverse evolves, more AI models may be integrated. **Monitor new model updates** and adjust configurations accordingly.

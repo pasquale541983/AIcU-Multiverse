@@ -1,0 +1,55 @@
+
+# ICU Multiverse - AI Model Configuration
+
+## **1. Main AI Engine (Core Intelligence)**
+### **Model: Meta-Llama 3 Instruct 70B**
+**Purpose:** Handles AI-driven universes, general intelligence, and user interactions.
+**Implementation:**  
+- Used for **all primary reasoning tasks** in ICU Multiverse.  
+- Manages **AI assistants, role-play, and multiverse dynamics**.  
+- Provides **adaptive responses** for evolving universes.  
+
+---
+
+## **2. Autonomous Coding & Canvas Automation**
+### **Model: Meta-Code Llama 2 Instruct 34B**
+**Purpose:** Enables AI-assisted programming & self-adaptive canvases.
+**Implementation:**  
+- Works with **Google Gemini AI** for automated coding.  
+- Modifies AI-driven universes dynamically based on user needs.  
+- Generates **custom AI environments** inside ICU Multiverse.  
+
+---
+
+## **3. Multimodal Processing (Text, Images, & Data Fusion)**
+### **Model: Mixtral-V01 Instructed 8.7B**
+**Purpose:** Handles image-to-text extraction and structured data fusion.
+**Implementation:**  
+- Processes **screenshots & visual data** using **Google Cloud Vision API**.  
+- Converts **text into actionable AI commands**.  
+- Used for **AI training data extraction** from real-world inputs.  
+
+---
+
+## **4. AI Logic, Role-play, & Advanced Capabilities**
+### **Model: Microsoft Wizard LM 2, 8×22B**
+**Purpose:** Enables advanced AI reasoning & emergent behaviors.
+**Implementation:**  
+- Optional for **interactive AI companions & storytelling universes**.  
+- Supports **AI-driven NPCs** in creative multiverse environments.  
+- Enhances **adaptive logic** in ICU Multiverse AI responses.  
+
+---
+
+## **Integration Flow**
+1. **Meta-Llama 3 Instruct 70B → Central AI Engine**
+2. **Meta-Code Llama 2 → Connected to Google Gemini AI for Coding**
+3. **Mixtral-V01 → Cloud Vision API for Image Processing**
+4. **Microsoft Wizard LM 2 → Experimental & AI Expansion**
+
+## **Next Steps**
+- Implement AI model configuration in **OwnAI backend**.  
+- Connect Meta-Code Llama 2 to **Gemini AI for real-time coding**.  
+- Optimize processing efficiency to ensure **scalability for ICU Multiverse**.  
+
+---

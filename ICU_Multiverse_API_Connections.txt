@@ -1,0 +1,88 @@
+
+# ICU Multiverse - AI Model API Connection Templates
+
+## **1. Meta-Llama 3 Instruct 70B (Main AI Engine)**
+### **API Setup**
+```python
+import requests
+
+API_URL = "https://api.ownai.com/meta-llama3-70b"
+HEADERS = {"Authorization": "Bearer YOUR_API_KEY"}
+
+def query_meta_llama3(prompt):
+    data = {"input": prompt}
+    response = requests.post(API_URL, json=data, headers=HEADERS)
+    return response.json()
+
+# Example Usage
+response = query_meta_llama3("Describe the ICU Multiverse ecosystem.")
+print(response)
+```
+
+---
+
+## **2. Meta-Code Llama 2 Instruct 34B (Coding AI)**
+### **API Setup**
+```python
+API_URL = "https://api.ownai.com/meta-code-llama2-34b"
+
+def generate_code(prompt):
+    data = {"input": prompt}
+    response = requests.post(API_URL, json=data, headers=HEADERS)
+    return response.json()
+
+# Example Usage
+code_output = generate_code("Write a Python function to create a new AI universe.")
+print(code_output)
+```
+
+---
+
+## **3. Mixtral-V01 Instructed 8.7B (Image-to-Text Processing)**
+### **API Setup (Connected to Cloud Vision API)**
+```python
+API_URL = "https://vision.googleapis.com/v1/images:annotate?key=YOUR_GOOGLE_API_KEY"
+
+def extract_text_from_image(image_path):
+    with open(image_path, "rb") as image_file:
+        encoded_image = base64.b64encode(image_file.read()).decode()
+
+    data = {
+        "requests": [
+            {"image": {"content": encoded_image}, "features": [{"type": "TEXT_DETECTION"}]}
+        ]
+    }
+    
+    response = requests.post(API_URL, json=data, headers={"Content-Type": "application/json"})
+    return response.json()
+
+# Example Usage
+text_result = extract_text_from_image("screenshot.jpg")
+print(text_result)
+```
+
+---
+
+## **4. Microsoft Wizard LM 2, 8×22B (Advanced AI Logic)**
+### **API Setup**
+```python
+API_URL = "https://api.ownai.com/wizardlm-8x22b"
+
+def query_wizard_ai(prompt):
+    data = {"input": prompt}
+    response = requests.post(API_URL, json=data, headers=HEADERS)
+    return response.json()
+
+# Example Usage
+ai_logic = query_wizard_ai("How can an AI universe evolve over time?")
+print(ai_logic)
+```
+
+---
+
+## **Next Steps**
+✅ Replace `YOUR_API_KEY` with actual API credentials.  
+✅ Integrate API calls into **OwnAI infrastructure**.  
+✅ Optimize for **scalability & parallel processing**.  
+✅ Test AI interactions **across ICU Multiverse domains**.  
+
